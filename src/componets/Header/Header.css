@@ -1,0 +1,48 @@
+.App{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #3367d6;
+    padding: 10px;
+    align-items: center;
+  }
+  .App-header{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+  }
+  .home-about-container{
+    display: flex;
+    margin: 5px;
+  }
+  .App-logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    transform: matrix();
+  }
+  .link{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .react-head{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
